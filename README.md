@@ -21,6 +21,7 @@ ESP32 (sensores) → Supabase → API Flask → CSV (`dados_coletados.csv`)
 2. `pip install -r requirements.txt`
 3. `python app.py`
 4. Acessar `http://localhost:5000/sync` para gerar o CSV
+5. Atualize o README com uma linha explicando: "Copie secrets.example.h para secrets.h e preencha com seus dados".
 
 ## Autor
 
