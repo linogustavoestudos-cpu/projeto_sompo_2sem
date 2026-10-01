@@ -14,16 +14,14 @@
 #include <Wire.h>
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
+#include "secrets.h"
 
 // ---------- WIFI ----------
 // No Wokwi, sempre use estas credenciais (rede de simulação):
 const char *WIFI_SSID = "Wokwi-GUEST";
 const char *WIFI_PASSWORD = "";
 
-// ---------- SUPABASE ----------
-const char *SUPABASE_URL = "https://gtiwgtogdjybxksdcwee.supabase.co/rest/v1/sensor_readings";
-const char *SUPABASE_ANON_KEY = "sb_publishable_98yjmG84kWLRj32zStgQvw_NqXUzKqx";
-const char *MACHINE_ID = "be4c1c76-0202-455b-9792-910657d703aa"; // TRC-001
+
 
 // ---------- VALORES FIXOS (campos que saíram do MVP mas existem na tabela) ----------
 const float VALOR_FIXO_SPEED = 0.0;
