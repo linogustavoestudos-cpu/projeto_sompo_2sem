@@ -4,3 +4,6 @@
 .vscode/launch.json
 .vscode/ipch
 src/secrets.h
+.env
+__pycache__/
+ultimo_sync.txt
